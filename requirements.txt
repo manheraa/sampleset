@@ -4,4 +4,5 @@ langchain
 langchain-openai
 langchain-groq
 python-dotenv
+langchain-community
 faiss-cpu  # Adjust this if you need the GPU version
