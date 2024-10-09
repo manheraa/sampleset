@@ -1,0 +1,12 @@
+version: '3.8'  # Specify the version of Docker Compose
+
+services:
+  streamlit:
+    image: chatbot  # Replace with your image name
+    build:
+      context: .    # Path to the directory containing your Dockerfile
+    ports:
+      - "8501:8501"  # Map host port 8501 to container port 8501
+    env_file:
+      - .env         # Load environment variables from .env file
+    restart: unless-stopped  # Restart policy for the container
