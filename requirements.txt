@@ -1,0 +1,7 @@
+streamlit
+langchain-core
+langchain
+langchain-openai
+langchain-groq
+python-dotenv
+faiss-cpu  # Adjust this if you need the GPU version
